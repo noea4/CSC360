@@ -25,9 +25,9 @@ public class Assignment05 extends Application{
 //		Creating MouseListener
 		MouseListener mouseListener = new MouseListener();
 //		Creating Text Field for message near cursor
-		Text text = new Text(" ");
+		Text text = new Text(10, 10, " ");
 //		Creating Pane
-		Pane pane = new Pane(circle);
+		Pane pane = new Pane(text, circle);
 		pane.setPadding(new Insets(50, 100, 50, 100));
 //		Creating Scene
 		Scene scene = new Scene(pane);
